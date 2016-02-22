@@ -1,0 +1,25 @@
+{
+  "name": "davidjhlee",
+  "version": "1.0.0",
+  "description": "My Personal Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlee1435/davidjhlee.git"
+  },
+  "keywords": [],
+  "author": "David Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlee1435/davidjhlee/issues"
+  },
+  "homepage": "https://github.com/davidlee1435/davidjhlee#readme",
+  "dependencies":{
+    "express": "3.6",
+    "finalhandler": "0.4.1",
+    "serve-static": "1.10.2"
+  }
+}
