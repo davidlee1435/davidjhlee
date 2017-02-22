@@ -1,25 +1,18 @@
 {
   "name": "davidjhlee",
-  "version": "1.0.0",
-  "description": "My Personal Website",
-  "main": "app.js",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidlee1435/davidjhlee.git"
-  },
-  "keywords": [],
-  "author": "David Lee",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/davidlee1435/davidjhlee/issues"
-  },
-  "homepage": "https://github.com/davidlee1435/davidjhlee#readme",
-  "dependencies":{
-    "express": "3.6",
-    "finalhandler": "0.4.1",
-    "serve-static": "1.10.2"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
